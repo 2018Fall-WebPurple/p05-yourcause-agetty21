@@ -1,0 +1,80 @@
+/*
+* Anna Getty
+* Due Date
+* Project Name and Description
+*/
+
+/* The universal selector */
+
+* { 
+margin: 0; padding: 0;
+} 
+
+/*the border allows for there to lines around the pictures. */
+header{
+    text-align: center;
+    border-bottom: 5px solid darkblue;
+    padding: 15px 0px;
+}
+body { 
+    background-color: lightblue;
+font-family: Arial, Helvetica, sans-serif;
+width: 1150px; margin:auto;
+    
+} 
+/* the darkbule is for every tag that hs h1 infront of it. */
+h1{
+    color: darkblue;
+    font-family: sans-serif;
+    font-size: 155%; 
+    text-align: center;  
+}
+h2{
+    color: darkblue;
+    font-family: sans-serif;
+    font-size: 120%;
+    /* use the % for represent how much you are making the font.*/
+    padding: 15px;
+}
+
+#left {text-align: left;}
+#Polar {width: 250px; height: 200px; float:left;
+    padding: 0px; border: 2px dashed black; margin: 20px;}
+#Ice {width: 215px; height: 150px; float:left;
+padding: 0px; border: 1px solid black; margin: 10px;}
+#Snow {width: 205px; height: 150px; float: left;
+padding: 0px; border: 1px solid black; margin: 8px;}
+#Bear {width: 215px; height: 150px; float: left;
+    padding: 0px; border: 1px solid black; margin: 7px;
+}
+#Cub {width: 180px; height: 150px; float: left; padding: 0px; border: 1px solid black; margin: 7px;}
+/* if you put the padding at 0 and adjusted the margin, it will deal with the border on the picture. */
+#Water {width: 225px; height: 150px; float: left;
+padding: 0px; border: 1px solid black; margin: 7px;}
+#White {width: 235px; height: 200px; float: right;
+padding: 0px; border: 1px solid black; margin: 7px;}
+
+
+p{
+   color: black;
+    /* every text in the p is black*/
+    font-family: Arial; 
+    font-size: 95%;
+    padding: 10px;
+    
+}
+footer{border-top:5px solid darkblue;
+padding: 15px 0px;
+color: black;
+font-family: sans-serif;
+font-size: 12px;
+margin: 10px;    
+
+
+}
+
+h6{float:right;
+color: darkblue;}
+h5{ color: darkblue;}
+ul{ margin-left: 20px;}
+/* the float right places the text on the right side of the page. */
